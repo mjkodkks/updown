@@ -1,5 +1,5 @@
 {
-  "name": "@hodgef/ts-library-boilerplate-basic",
+  "name": "@dkks/updown",
   "version": "1.1.83",
   "description": "Typescript Minimal Starter Kit for building libraries",
   "main": "build/index.js",

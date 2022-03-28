@@ -1,6 +1,10 @@
-import "./index.css";
-declare class MyLibrary {
-    constructor();
-    myMethod: () => boolean;
+declare class Updown {
+    elements: NodeListOf<Element>;
+    upColor: string;
+    downColor: string;
+    redColor: string;
+    constructor(querySelector?: string, upColor?: string, downColor?: string);
+    getElements(querySelector: string): void;
+    paint(): void;
 }
-export default MyLibrary;
+export default Updown;

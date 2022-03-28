@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Updown</title>
+</head>
+
+<body>
+    <h1>
+        DEMO OF UPDOWN.JS
+    </h1>
+
+    <ul class="updown">
+        <li class="updown">123</li>
+        <li class="updown">-123</li>
+        <li class="updown">-5</li>
+        <li class="updown">0</li>
+        <li class="updown">0.1234568</li>
+        <li class="updown">1,000</li>
+        <li class="any-class-name-u-want">1010101</li>
+    </ul>
+    <script type="module">
+        import Updown from "../lib";
+        new Updown('.updown')
+        new Updown('.any-class-name-u-want')
+    </script>
+</body>
+
+</html>
